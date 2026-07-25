@@ -1,5 +1,5 @@
 import React from 'react';
-import {FaGithub, FaGoogle} from "react-icons/fa";
+import {FaGithub} from "react-icons/fa";
 import LoginForm from '@/components/forms/LoginForm';
 import ProviderButton from '@/components/buttons/ProviderButton';
 import {auth} from '../lib/auth/server';
@@ -42,15 +42,14 @@ const Page = async () => {
                                 icon={<FaGithub/>}
                                 whiteVersion={false}
                             />
-                            <ProviderButton
-                                text="Google"
-                                signProvider="google"
-                                icon={<FaGoogle/>}
-                                whiteVersion={true}
-                            />
+                            {/*<ProviderButton*/}
+                            {/*    text="Google"*/}
+                            {/*    signProvider="google"*/}
+                            {/*    icon={<FaGoogle/>}*/}
+                            {/*    whiteVersion={true}*/}
+                            {/*/>*/}
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
