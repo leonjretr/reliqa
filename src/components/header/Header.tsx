@@ -22,13 +22,14 @@ const Header = async () => {
             <div className="flex justify-center items-center col-span-6">
                 <button
                     className={"cursor-pointer justify-self-center"}>
-                    <Link href={"/"} className={"flex flex-col justify-center"}>
-                        <div className={"flex text-start font-poppins font-bold text-lg sm:text-3xl p-2 leading-1"}>
-                            things talk
-                        </div>
+                    <Link href={"/"} className={"flex flex-col justify-center items-center"}>
                         <div
-                            className={"flex justify-center font-poppins italic text-xxs pt-3 leading-1 after:content-[''] sm:after:content-['what&#39;s their language?'] "}>
+                            className={"flex text-start font-poppins font-bold text-xl sm:text-3xl p-2 sm:p-0 leading-1"}>
+                            RELIQA
                         </div>
+                        <span className={"flex justify-center font-poppins italic text-xxs sm:text-xs leading-1"}>
+                            things fade. stories don&#39;t.
+                        </span>
                     </Link>
                 </button>
             </div>
