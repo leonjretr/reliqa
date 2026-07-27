@@ -7,7 +7,6 @@ import PageCounter from "@/components/plates/PageCounter";
 import {auth} from "@/app/lib/auth/server";
 
 const Page = async ({searchParams}: { searchParams: Promise<{ page?: string }> }) => {
-    // страница всех меморисов. здесь будет поиск, здесь будет сортировка
     const {page} = await searchParams;
     const currentPage = Number(page ?? "1");
     const fetchLimit = 10;
