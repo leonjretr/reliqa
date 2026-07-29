@@ -42,12 +42,6 @@ const Page = async () => {
                                 icon={<FaGithub/>}
                                 whiteVersion={false}
                             />
-                            {/*<ProviderButton*/}
-                            {/*    text="Google"*/}
-                            {/*    signProvider="google"*/}
-                            {/*    icon={<FaGoogle/>}*/}
-                            {/*    whiteVersion={true}*/}
-                            {/*/>*/}
                         </div>
                     </div>
                 </div>
