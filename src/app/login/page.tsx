@@ -26,11 +26,9 @@ const Page = async () => {
                         </div>
                         <LoginForm/>
                     </div>
-
                     <div
                         className="my-8 h-px w-full bg-brandCoffee dark:bg-zinc-700 md:my-0 md:mx-8 md:h-auto md:w-px md:self-stretch"
                     />
-
                     <div className="flex flex-col w-full md:w-auto">
                         <div className="text-sm font-poppins mb-6 text-center">
                             using one of the services
@@ -42,12 +40,6 @@ const Page = async () => {
                                 icon={<FaGithub/>}
                                 whiteVersion={false}
                             />
-                            {/*<ProviderButton*/}
-                            {/*    text="Google"*/}
-                            {/*    signProvider="google"*/}
-                            {/*    icon={<FaGoogle/>}*/}
-                            {/*    whiteVersion={true}*/}
-                            {/*/>*/}
                         </div>
                     </div>
                 </div>
