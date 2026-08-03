@@ -25,10 +25,10 @@ const Header = async () => {
                     <Link href={"/"} className={"flex flex-col justify-center items-center"}>
                         <div
                             className={"flex text-start font-poppins font-bold text-xl sm:text-3xl p-2 sm:p-0 leading-1"}>
-                            RELIQA
+                            things talk
                         </div>
                         <span className={"flex justify-center font-poppins italic text-xxs sm:text-xs leading-1"}>
-                            things fade. stories don&#39;t.
+                             what&#39;s their language?
                         </span>
                     </Link>
                 </button>
